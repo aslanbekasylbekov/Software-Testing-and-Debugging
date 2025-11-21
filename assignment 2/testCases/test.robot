@@ -12,8 +12,12 @@ Verify User Registration
 Verify User Login
     Log In
 
+Verify User Logout
+    Log In And Out
+
 Verify Add To Cart
     Add To Cart
 
 Verify Contact Form Submission
     Contact Form Submission
+
