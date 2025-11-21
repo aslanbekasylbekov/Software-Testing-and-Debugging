@@ -35,7 +35,30 @@ Log In
     Input Text    ${log_in_username_field}    ${user_login_value}
     Input Text    ${log_in_password_field}    ${user_password_value}
     Click Element    ${log_in_form_button}
+    Wait Until Element Is Visible    ${log_out_button}    timeout=10
     Sleep    2s
+    Close All Browsers
+
+Log Out
+    Wait Until Element Is Visible    ${log_out_button}    timeout=10
+    Click Element    ${log_out_button}
+    Wait Until Element Is Visible    ${log_in_button}    timeout=10
+    Sleep    1s
+
+Log In And Out
+    Open Browser To DemoBlaze
+    # Логин
+    Click Element    ${log_in_button}
+    Wait Until Element Is Visible    ${log_in_username_field}
+    Input Text    ${log_in_username_field}    ${user_login_value}
+    Input Text    ${log_in_password_field}    ${user_password_value}
+    Click Element    ${log_in_form_button}
+    # Проверка что логин успешен (появилась кнопка выхода)
+    Wait Until Element Is Visible    ${log_out_button}    timeout=10
+    # Logout
+    Click Element    ${log_out_button}
+    # Проверка что выход успешен (появилась кнопка входа)
+    Wait Until Element Is Visible    ${log_in_button}    timeout=10
     Close All Browsers
 
 Add To Cart
