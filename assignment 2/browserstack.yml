@@ -1,0 +1,20 @@
+userName: bsuser_0KWvM8
+accessKey: wdcP9mSHhVt1gdR13wzS
+framework: robot
+platforms:
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: 18.4
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: browserstack-build-1
+projectName: Automation test
