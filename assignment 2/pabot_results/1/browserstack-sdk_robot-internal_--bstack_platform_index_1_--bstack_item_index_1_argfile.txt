@@ -1,0 +1,18 @@
+--suite Test
+--variable BSTACKDEFLOCALIDENTIFIER:
+--variable BSTACKPLATFORMINDEX:1
+--variable CALLER_ID:b6b8d30ad67b4128a19b1e7488656bc2
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:3
+--variable PABOTQUEUEINDEX:1
+--variable PABOTLASTLEVEL:Test.PABOT_noend
+--listener /Users/aslanbekasylbekov/venv3.12/lib/python3.12/site-packages/browserstack_sdk/bstack_robot_listener.py
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir ./pabot_results/1
+--consolecolors off
+--consolemarkers off
+testCases/test.robot

@@ -1,0 +1,367 @@
+<robot generator="Robot 7.3.2 (Python 3.12.12 on darwin)" generated="2025-11-25T12:15:03.677617" rpa="false" schemaversion="5">
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="5" fail="0" skip="0">Test</stat>
+</suite>
+</statistics>
+<suite name="Suites" id="s0"><suite id="s1" name="Test OS X, Sequoia, Safari, 18.4" source="/Users/aslanbekasylbekov/Desktop/pet projects/testing/assignment 2/testCases/test.robot">
+<kw name="Open Browser To DemoBlaze" owner="resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:03.703122" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:15:03.704362" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:15:03.702808" elapsed="12.759488" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:15:16.464032" elapsed="0.150890" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:15:17.617238" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:15:16.615491" elapsed="1.004490" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:03.701929" elapsed="13.919552" />
+</kw>
+<test id="s1-t1" name="Verify Home Page Load" line="8">
+<kw name="Page Load" owner="resources">
+<kw name="Open Browser To DemoBlaze" owner="resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:17.627360" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:15:17.633202" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:15:17.626688" elapsed="13.721428" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:15:31.353136" elapsed="0.168535" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:15:32.526675" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:15:31.524958" elapsed="1.002906" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:17.626224" elapsed="14.902830" />
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:32.660048" level="INFO">Page title is 'STORE'.</msg>
+<arg>STORE</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-11-25T12:15:32.531050" elapsed="0.130691" />
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:15:32.664486" elapsed="2.386673" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:17.625619" elapsed="17.427311" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:17.623303" elapsed="17.430242" />
+</test>
+<test id="s1-t2" name="Verify User Registration" line="11">
+<kw name="Sign Up" owner="resources">
+<kw name="Open Browser To DemoBlaze" owner="resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:35.058637" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:15:35.063150" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:15:35.057688" elapsed="11.980755" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:15:47.041826" elapsed="0.148456" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:15:48.194781" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:15:47.192392" elapsed="1.004605" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:35.057047" elapsed="13.143171" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${sign_up_button}</arg>
+<arg>timeout=10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:15:48.202666" elapsed="0.388966" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:48.594030" level="INFO">Clicking element '//*[@id="signin2"]'.</msg>
+<arg>${sign_up_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:15:48.593252" elapsed="0.275494" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${sign_up_username_field}</arg>
+<arg>timeout=10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:15:48.870167" elapsed="0.279819" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:49.154235" level="INFO">Typing text 'aslanbek@test.gmail.com' into text field '//*[@id="sign-username"]'.</msg>
+<arg>${sign_up_username_field}</arg>
+<arg>${user_login_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:15:49.153282" elapsed="0.636942" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:49.794454" level="INFO">Typing text '123456789' into text field '//*[@id="sign-password"]'.</msg>
+<arg>${sign_up_password_field}</arg>
+<arg>${user_password_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:15:49.793104" elapsed="0.595171" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:50.392569" level="INFO">Clicking element '//*[@id="signInModal"]/div/div/div[3]/button[2]'.</msg>
+<arg>${sign_up_form_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:15:50.391207" elapsed="0.369318" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:15:52.765234" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:15:50.763195" elapsed="2.003647" />
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:15:52.768263" elapsed="1.347631" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:35.056490" elapsed="19.061707" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:35.054796" elapsed="19.064134" />
+</test>
+<test id="s1-t3" name="Verify User Login" line="14">
+<kw name="Log In" owner="resources">
+<kw name="Open Browser To DemoBlaze" owner="resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:15:54.124641" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:15:54.129018" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:15:54.123824" elapsed="15.277507" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:16:09.405267" elapsed="0.165050" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:16:10.576774" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:16:09.573540" elapsed="1.005319" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:54.123221" elapsed="16.458273" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:10.585457" level="INFO">Clicking element '//*[@id="login2"]'.</msg>
+<arg>${log_in_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:10.583915" elapsed="0.296587" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${log_in_username_field}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:16:10.883368" elapsed="0.385820" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:11.273472" level="INFO">Typing text 'aslanbek@test.gmail.com' into text field '//*[@id="loginusername"]'.</msg>
+<arg>${log_in_username_field}</arg>
+<arg>${user_login_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:11.272054" elapsed="0.675133" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:11.951666" level="INFO">Typing text '123456789' into text field '//*[@id="loginpassword"]'.</msg>
+<arg>${log_in_password_field}</arg>
+<arg>${user_password_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:11.950064" elapsed="0.460621" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:12.415017" level="INFO">Clicking element '//*[@id="logInModal"]/div/div/div[3]/button[2]'.</msg>
+<arg>${log_in_form_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:12.413699" elapsed="0.295859" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${log_out_button}</arg>
+<arg>timeout=10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:16:12.711240" elapsed="1.186127" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:16:15.902186" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:16:13.900185" elapsed="2.004313" />
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:16:15.907368" elapsed="2.122562" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:54.122235" elapsed="23.910188" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:54.120252" elapsed="23.912836" />
+</test>
+<test id="s1-t4" name="Verify Add To Cart" line="17">
+<kw name="Add To Cart" owner="resources">
+<kw name="Open Browser To DemoBlaze" owner="resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:18.038067" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:16:18.041010" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:16:18.037443" elapsed="12.501362" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:16:30.540635" elapsed="0.159170" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:16:31.703298" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:16:30.701873" elapsed="1.002800" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:18.036996" elapsed="13.668940" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:31.707684" level="INFO">Clicking element '//*[@id="tbodyid"]/div[1]/div/div/h4/a'.</msg>
+<arg>${open_product_page_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:31.706933" elapsed="0.304566" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${add_to_cart_button}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:16:32.013653" elapsed="0.789405" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:32.807087" level="INFO">Clicking element '//*[@class="btn btn-success btn-lg"]'.</msg>
+<arg>${add_to_cart_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:32.805647" elapsed="0.275466" />
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:33.084202" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>ACCEPT</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2025-11-25T12:16:33.083356" elapsed="1.003067" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:16:36.090735" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:16:34.088679" elapsed="2.003778" />
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:16:36.095430" elapsed="1.228526" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:18.036459" elapsed="19.288509" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:18.034398" elapsed="19.291039" />
+</test>
+<test id="s1-t5" name="Verify Contact Form Submission" line="20">
+<kw name="Contact Form Submission" owner="resources">
+<kw name="Open Browser To DemoBlaze" owner="resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:37.330205" level="INFO">Opening browser 'firefox' to base url 'https://www.demoblaze.com/' through remote server at 'http://bsuser_0KWvM8:wdcP9mSHhVt1gdR13wzS@hub.browserstack.com/wd/hub'.</msg>
+<msg time="2025-11-25T12:16:37.333835" level="INFO">Completed setup!</msg>
+<arg>${base_url}</arg>
+<arg>remote_url=${BROWSERSTACK_REMOTE_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-25T12:16:37.329542" elapsed="12.457810" />
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-25T12:16:49.795381" elapsed="0.190108" />
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-25T12:16:50.990366" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-25T12:16:49.987779" elapsed="1.004528" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:37.328981" elapsed="13.665234" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:50.996737" level="INFO">Clicking element '//*[@id="navbarExample"]/ul/li[2]/a'.</msg>
+<arg>${contact_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:50.995613" elapsed="0.309043" />
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${contact_email_field}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-25T12:16:51.306788" elapsed="0.390357" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:51.699660" level="INFO">Typing text 'aslanbek@test.gmail.com' into text field '//*[@id="recipient-email"]'.</msg>
+<arg>${contact_email_field}</arg>
+<arg>${contact_email_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:51.698728" elapsed="0.689032" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:52.392113" level="INFO">Typing text 'Aslanbek Assylbekov' into text field '//*[@id="recipient-name"]'.</msg>
+<arg>${contact_name_field}</arg>
+<arg>${contact_name_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:52.391202" elapsed="0.412846" />
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:52.806695" level="INFO">Typing text 'This is an automated contact form submission test.' into text field '//*[@id="message-text"]'.</msg>
+<arg>${contact_message_field}</arg>
+<arg>${contact_message_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:52.805796" elapsed="0.458281" />
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:53.268470" level="INFO">Clicking element '//*[@id="exampleModal"]/div/div/div[3]/button[2]'.</msg>
+<arg>${contact_send_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-25T12:16:53.267087" elapsed="0.293440" />
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2025-11-25T12:16:53.563539" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>ACCEPT</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2025-11-25T12:16:53.562652" elapsed="0.353967" />
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:16:53.918777" elapsed="1.543217" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:37.328032" elapsed="18.136425" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:37.326301" elapsed="18.139267" />
+</test>
+<kw name="Close Test Browsers" owner="resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-11-25T12:16:55.470149" elapsed="0.000595" />
+</kw>
+<status status="PASS" start="2025-11-25T12:16:55.467903" elapsed="0.003366" />
+</kw>
+<status status="PASS" start="2025-11-25T12:15:03.679006" elapsed="111.793433" />
+</suite>
+<status status="PASS" start="2025-11-25T12:15:03.679006" elapsed="111.793433" />
+</suite><errors>
+</errors>
+</robot>

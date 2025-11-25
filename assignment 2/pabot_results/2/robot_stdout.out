@@ -1,0 +1,28 @@
+2025-11-25T07:15:01Z [browserstack_sdk.__init__][INFO] - SDK run started with id: 6a3fac61-d1c1-47ed-b58c-c7f681c2f3d2
+2025-11-25T07:15:01Z [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-11-25T07:15:03Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Test                                                                          
+==============================================================================
+2025-11-25T07:15:03Z [browserstack_sdk.__init__][INFO] - Completed setup!
+Verify Home Page Load                                                 2025-11-25T07:15:17Z [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Verify User Registration                                              2025-11-25T07:15:35Z [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Verify User Login                                                     2025-11-25T07:15:54Z [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Verify Add To Cart                                                    2025-11-25T07:16:18Z [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Verify Contact Form Submission                                        2025-11-25T07:16:37Z [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Test                                                                  | PASS |
+5 tests, 5 passed, 0 failed
+==============================================================================
+Output:  /Users/aslanbekasylbekov/Desktop/pet projects/testing/assignment 2/pabot_results/2/output.xml
+2025-11-25T07:16:56Z [browserstack_sdk.__init__][INFO] - Handling session close
+2025-11-25T07:16:56Z [browserstack_sdk.__init__][INFO] - All done!
